@@ -48,8 +48,8 @@ public class Seller implements Serializable  {
 		return email;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
+	public void setEmail(String s) {
+		this.email = s;
 	}
 
 	public Date getBirthDate() {
